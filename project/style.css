@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background: #d5dbdb ;
+}
+body{
+	color: red;
+}
+.left{
+	position: absolute;
+	left: 34px;
+	top: 20px;
+ display: inline-block;
+ 
+}
+.center{
+	display: block;
+	margin: 20px auto;
+	width: 36%;
+}
+.right{
+	position: absolute;
+	right: 34px;
+	top: 20px;
+	display: inline-block;
+}
+.navbar li{
+	display: inline-block;
+	font-size: 15px;
+}
+.navbar li a{
+	color: black;
+	text-decoration: none;
+	padding: 30px;
+	font-size: 1rem;
+	font-weight: 12px;
+
+}
+.navbar li a:hover, navbar li a:active{
+	text-decoration: underline;
+	color: skyblue;
+
+}
+.left img{
+	width: 80px;
+	border-radius: 12px;
+
+}
